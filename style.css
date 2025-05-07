@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://64.media.tumblr.com/42fcf594b85dedcae263c8a6386f7069/ebcf666213ed2d9f-e1/s1280x1920/08a27b6940ecb280301bebdf02cdf4ea48f9ea1d.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid;
+    border-color: rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    color: white;
+    padding: 30px 40px;
+    backdrop-filter: blur(8px);
+}
+
+.container__titulo {
+    font-size: 36px;
+    text-align: center;
+}
+
+.inserirDado {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.inserirDado input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+.inserirDado input::placeholder {
+    color: rgb(208, 204, 204);
+}
+
+.inserirDado i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    font-size: 20px;
+    transform: translateY(-50%);
+}
+
+.lembrarSenha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -15px 0 15px;
+}
+
+.lembrarSenha__input {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.lembrarSenha__input input {
+    accent-color: white;
+}
+
+.lembrarSenha a {
+    text-decoration: none;
+    color: white;
+}
+
+.lembrarSenha a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.login {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top: 20px;
+}
+
+.login:hover {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: white;
+    transition: 0.3s;
+}
+
+.cadastro {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+}
+
+.cadastro__destaque{
+    text-decoration: none;
+    color: white;
+}
